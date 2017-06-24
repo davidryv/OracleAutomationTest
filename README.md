@@ -58,4 +58,10 @@ If you need to force a binary overwrite you can do:
 ### Add new tests
 
 If you want to add new test to run, go to ${project.basedir}/test/java/OracleAutomationTest/tests and add a class ending in "IT"
-All classes without IT at the end will be skipped
+All classes without IT at the end will be skipped.
+
+### It's Failing
+
+Right now it does not manage login after forgot password is sent, so even it goes through Forgot Password , is skipped because it won't allow to
+log in latter , until recover password process is completed, is expected , for now, for testing purposes.
+
