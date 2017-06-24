@@ -2,12 +2,12 @@ package OracleAutomationTest.tests;
 
 import OracleAutomationTest.DriverBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by david on 23/06/2017.
@@ -26,20 +26,21 @@ public class TwitterExampleIT extends DriverBase{
         driver.get("https://twitter.com/");
         // Alternatively the same thing can be done like this
         // driver.navigate().to("https://twitter.com/");
-
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         // Find the text input element by its name
-        WebElement element = driver.findElement(By.name("session[username_or_email]"));
+
+        WebElement element = driver.findElement(By.id("signin-email"));
+        element.click();
 
         // Enter username
         element.sendKeys("davidryv");
 
         //Find the password element by its name
-
-        element.findElement(By.name("session[password]"));
-
+        WebElement element2 = driver.findElement(By.id("signin-password"));
+        element2.click();
         // Enter password
 
-        element.sendKeys("Wrong Password");
+        element2.sendKeys("Wrong Password");
 
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
