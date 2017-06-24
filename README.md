@@ -53,3 +53,9 @@ If the tests fail screenshots will be saved in ${project.basedir}/target/screens
 If you need to force a binary overwrite you can do:
 
 - -Doverwrite.binaries=true
+
+
+### Add new tests
+
+If you want to add new test to run, go to ${project.basedir}/test/java/OracleAutomationTest/tests and add a class ending in "IT"
+All classes without IT at the end will be skipped
