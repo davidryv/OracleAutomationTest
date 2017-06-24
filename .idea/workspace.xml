@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3df083-8277-4c62-af88-224908f2e912" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OracleAutomationTest/tests/TwitterExampleIT.java" afterPath="$PROJECT_DIR$/src/test/java/OracleAutomationTest/tests/TwitterExampleIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="OracleAutomationTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,12 +67,10 @@
       <file leaf-file-name="TwitterExampleIT.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/OracleAutomationTest/tests/TwitterExampleIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="156">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1839#2016#0" expanded="false" />
-                <element signature="e#2015#2016#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -679,8 +673,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -756,8 +748,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,8 +823,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -951,8 +939,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,8 +1014,6 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1122,12 +1106,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OracleAutomationTest/tests/TwitterExampleIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1839#2016#0" expanded="false" />
-            <element signature="e#2015#2016#0" expanded="false" />
           </folding>
         </state>
       </provider>
