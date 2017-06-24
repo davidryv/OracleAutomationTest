@@ -80,14 +80,14 @@ public class TwitterExampleIT extends DriverBase{
         element.click();
 
         // Enter username
-        element.sendKeys("davidryv");
+        element.sendKeys("resonancia_mx");
 
         //Find the password element by its name
         WebElement element2 = driver.findElement(By.id("signin-password"));
         element2.click();
         // Enter password
 
-        element2.sendKeys("Wrong Password");
+        element2.sendKeys("115Te7Gia");
 
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
@@ -99,7 +99,7 @@ public class TwitterExampleIT extends DriverBase{
         // Wait for the page to load, timeout after 10 seconds
         (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase().startsWith("login");
+                return d.getTitle().toLowerCase().startsWith("twitter");
             }
         });
 
