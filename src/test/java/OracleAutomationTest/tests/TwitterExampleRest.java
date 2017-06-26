@@ -5,13 +5,16 @@ package OracleAutomationTest.tests;
  */
 
 import org.testng.annotations.Test;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class TwitterExampleRest {
 
 
 
     @Test
-    public void TwitterRestFail() throws Exception {
+    public void TwitterRestFail()  {
 
 
 
